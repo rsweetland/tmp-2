@@ -1,0 +1,28 @@
+{
+  "name": "tmp-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun run -r dotenv/config server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "configAuthorName": "Reilly Sweetland",
+  "configAuthorEmail": "esweetland@gmail.com",
+  "dependencies": {
+    "@puzzlet/agentmark": "^2.2.2",
+    "@puzzlet/all-models": "^1.1.6",
+    "@puzzlet/sdk": "^2.1.0",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
