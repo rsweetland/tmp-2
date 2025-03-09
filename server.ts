@@ -13,7 +13,7 @@ const tracer = puzzletClient.initTracing();
 ModelPluginRegistry.registerAll(AllModels);
 
 async function run() {
-    const prompt = await puzzletClient.fetchPrompt("helloworld.txt");
+    const prompt = await puzzletClient.fetchPrompt("helloworld.prompt.mdx");
     const props = { someExampleProp: 'someExampleValue' };
     const telemetry = {
         isEnabled: true,
